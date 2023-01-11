@@ -1,0 +1,16 @@
+<section class="pack">
+    <div class="img-holder">
+        <img [src]="data.img" alt="">
+    </div>
+    <div class="information">
+        <div class="title-holder">
+            <h3>{{data.title}}</h3>
+            <p>Features: <span>{{data.features.time}}</span> / <span> {{data.features.travelStatus}}</span> / <span>{{data.features.travelInfo}}</span></p>
+        </div>
+        <div class="info">
+            <p class="text">{{data.text}}</p>
+            <p class="price">Price Per Person: <span>{{data.price}}</span></p>
+            <div class="btn">tour details</div>
+        </div>
+    </div>
+</section>

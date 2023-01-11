@@ -1,0 +1,26 @@
+.pop{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background: #8bca02;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(/assets/img/call-experts-bg-3.png);
+    background-size: cover;
+    >p{
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    >h2{
+        font-size: 36px;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+}

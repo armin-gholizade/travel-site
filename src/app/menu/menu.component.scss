@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu-holder{
+    width: 100%;
+    height: 100%;
+    // border: 1px solid green;
+    >ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        >li{
+            margin-left: 30px;
+            color: #222222;
+            // border: 1px solid black;
+            font-size: 18px;
+            text-transform: capitalize;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            transition: .4s;
+            cursor: pointer;
+            &:hover{
+                color: orange;
+            }
+        }
+    }
+}
