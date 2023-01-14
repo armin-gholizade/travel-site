@@ -12,11 +12,11 @@
             <app-info-box [color]="item.color" [img]="item.img" [topTitle]="item.topTitle" [subTitle]="item.subTitle" [text]="item.text"></app-info-box>
         </div>
     </section>
-    
+<!-- *************************** -->
     <section class="search-trip">
         <app-search-trip></app-search-trip>
     </section>
-
+<!-- *************************** -->
     <section class="tour-packages">
         <div class="tour-packages-title">
             <div>
@@ -30,48 +30,56 @@
             </div>
         </section>
     </section>
-
+<!-- ******************************* -->
     <section class="popular-destinations">
         <app-popular-destinations></app-popular-destinations>
     </section>
     <section class="popUp">
         <app-destination-popup></app-destination-popup>
     </section>
-
+<!-- ****************************** -->
     <section class="tourist-reviews">
         <div class="tourist-reviews-title">
-            <h4></h4>
-            <h3></h3>
+            <div>
+                <h4>Tours & Holidays Specialists</h4>
+            </div>
+            <h3>Tourists Reviews</h3>
         </div>
         <section class="reviews-holder">
-            <div class="review-box">
                 <app-review-box></app-review-box>
+        </section>
+    </section>
+<!-- *********************** -->
+    <section class="travel-state">
+        <div class="travel-state-title">
+            <div>
+                <h4>Tours & Holidays Specialists</h4>
+            </div>
+            <h3>Tours & Travel Stats</h3>
+        </div>
+        <section class="state-holder" >
+            <div *ngFor="let item of travelStateList"><app-travel-state-box [data]="item"></app-travel-state-box></div>
+        </section>
+    </section>
+<!-- ******************************* -->
+    <section class="tour-guides">
+        <div class="tour-guides-title">
+            <div>       
+                <h4>Shared Experiences & Articles From Blog</h4>
+            </div>
+            <h3>Spotlight & Tour Guides</h3>
+        </div>
+        <section class="guide-holder">
+            <div *ngFor="let item of guidesList">
+                <app-tour-guid-box [data]="item"></app-tour-guid-box>
             </div>
         </section>
     </section>
-
-    <section class="travel-state">
-        <div class="travel-state-title">
-            <h4></h4>
-            <h3></h3>
-        </div>
-        <section class="state-holder">
-            <app-travel-state-box></app-travel-state-box>
-        </section>
-    </section>
-
-    <section class="tour-guides">
-        <div class="tour-guides-title">
-            <h4></h4>
-            <h3></h3>
-        </div>
-        <section class="guide-holder">
-            <app-tour-guid-box></app-tour-guid-box>
-        </section>
-    </section>
-
+<!-- *************************** -->
     <section class="reward-holder">
-        <app-reward-section></app-reward-section>
+        <div>
+            <app-reward-section></app-reward-section>
+        </div>
     </section>
 
 

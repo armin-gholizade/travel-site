@@ -19,17 +19,24 @@ export class ContainerComponent implements OnInit {
     {img:'/assets/img/aonang-bangkok-tour-600x500.jpg',title:'Ao Nang & Bangkok Tour',features:{time:'4 Days',travelStatus:' Road Trip ',travelInfo:' Sightseeing'},text:'Non mollitia pora autem expedia delects usto qui dolor ipsum accusamus.',price:'$1,230.00'},
     {img:'/assets/img/swiss-tour-600x500.jpg',title:'Sensational Swiss Tour',features:{time:' 10 Days ',travelStatus:' Air Trip ',travelInfo:' Couples'},text:'For traveling in mountains and full green valleys, Book your tour with us.',price:'$1,315.00'},
   ]
-  // <img src="/assets/img/dubai-tour-600x500.jpg" alt="">
-  // <img src="/assets/img/northern-gateway-tour-600x500.jpg" alt="">
-  // <img src="/assets/img/asia-tour-600x500.jpg" alt="">
-  // <img src="/assets/img/aonang-bangkok-tour-600x500.jpg" alt="">
-  // <img src="/assets/img/swiss-tour-600x500.jpg" alt="">
+  travelStateList:any=[
+    {img:'/assets/img/briefcase-with-stickers-svgrepo-com.svg',number:'570',text:'Tour & Travels',color:'background:#0e76bc'},
+    {img:'/assets/img/clothes-full-shirt-2-svgrepo-com.svg',number:'392',text:'Happy Customers',color:'background:#fd9d2a'},
+    {img:'/assets/img/road-sign-svgrepo-com.svg',number:'40+',text:'Worldwide Destinaitions',color:'background:#8bca02'},
+    {img:'/assets/img/tent-9-svgrepo-com (2).svg',number:'268',text:'Wild Camping',color:'background:purple'},
+  ]
+
+  guidesList:any=[
+    {img:'/assets/img/products-for-travel-600x369.jpg',title:'Tours & Trips',text:'10 Products You Need To Pack For Your Luxury Summer Travel'},
+    {img:'/assets/img/explore-national-parks-2-600x369.jpg',title:'Adventure ',text:'Explore The Wild & Wonderful USA National Parks With Experts'},
+    {img:'/assets/img/autumn-season-touring-600x369.jpg',title:'Tours & Trips',text:'Reasons Of Why Autumn Is The Perfect Time For Touring'},
+  ]
+
+ 
   constructor() { 
 
   }
-  // <img src="assets/img/ship-boat-svgrepo-com (1).svg" alt="">
-  // <img src="assets/img/travel-svgrepo-com.svg" alt="">
-  // <img src="assets/img/map-location-svgrepo-com.svg" alt="">
+
 
   ngOnInit(): void {
   }

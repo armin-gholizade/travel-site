@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-travel-state-box',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./travel-state-box.component.scss']
 })
 export class TravelStateBoxComponent implements OnInit {
-
+  @Input() data:any
   constructor() { }
 
   ngOnInit(): void {

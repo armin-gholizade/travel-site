@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tour-guid-box',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tour-guid-box.component.scss']
 })
 export class TourGuidBoxComponent implements OnInit {
-
+@Input() data:any
   constructor() { }
 
   ngOnInit(): void {
