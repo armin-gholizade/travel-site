@@ -32,6 +32,14 @@ export class ContainerComponent implements OnInit {
     {img:'/assets/img/autumn-season-touring-600x369.jpg',title:'Tours & Trips',text:'Reasons Of Why Autumn Is The Perfect Time For Touring'},
   ]
 
+  rewardList:string[]=[
+    "/assets/img/award-11-200x256.webp",
+    "/assets/img/award-22-200x286.png", 
+    "/assets/img/award-33-200x283.webp",
+    "/assets/img/award-44-200x268.webp",
+    "/assets/img/award-55-200x297.webp"
+  ]
+
  
   constructor() { 
 

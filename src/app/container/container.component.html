@@ -77,8 +77,8 @@
     </section>
 <!-- *************************** -->
     <section class="reward-holder">
-        <div>
-            <app-reward-section></app-reward-section>
+        <div *ngFor="let item of rewardList">
+            <app-reward-section [img]="item"></app-reward-section>
         </div>
     </section>
 

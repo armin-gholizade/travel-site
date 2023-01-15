@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-reward-section',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./reward-section.component.scss']
 })
 export class RewardSectionComponent implements OnInit {
+  @Input() img:string=''
 
   constructor() { }
 
